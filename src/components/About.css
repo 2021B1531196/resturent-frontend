@@ -1,0 +1,80 @@
+.app__aboutus{
+background: url('../assets/bg.png');
+background-position: center;
+background-size: cover;
+background-repeat: repeat;
+background-attachment: fixed;
+padding: 4rem 6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.app__aboutus-overlay{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: absolute;
+    inset:0;
+}
+.app__aboutus-overlay img{
+    width: 391px;
+    height: 415px;
+    z-index:0;
+}
+.app_aboutus-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    z-index:2;
+}
+.app_aboutus-content-about{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.app_aboutus-content-knife{
+    margin: 2rem 4rem;
+
+}
+.app_aboutus-content-knife img{
+    height:910px;
+}
+.app_aboutus-content-history{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.app_aboutus-content-history p, .app_aboutus-content-about p{
+    margin: 2 rem 0;
+    color: bisque;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+}
+
+.app_aboutus-content-about h1,
+.app_aboutus-content-history h1 {
+    
+    color:bisque;
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  }
+.spoon__img {
+    width: 45px;
+  }

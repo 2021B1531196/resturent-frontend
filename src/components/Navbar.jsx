@@ -10,7 +10,7 @@ export const Navbar = () => {
 
 
   return (
-    <nav className='app__navbar'>
+    <nav className='app__navbar '>
         <div className='app__navbar_logo'>
             <img src={gericht} alt="app logo" />
         </div>

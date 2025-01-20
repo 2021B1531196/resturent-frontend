@@ -1,6 +1,6 @@
 import React from 'react'
 import knife from "../assets/knife.png"
-import G from "../assets/G.png"
+import G from"../assets/G.png"
 import "./About.css"
 import spoon from "../assets/spoon.png"
 
@@ -8,7 +8,7 @@ function About() {
   return (
     <div className='app__aboutus' id='about'>
         <div className="app__aboutus-overlay">
-            <img src={G} alt="" />
+            <img src={G} alt="image" />
         </div>
         <div className="app_aboutus-content">
             <div className="app_aboutus-content-about">

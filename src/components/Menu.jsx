@@ -83,7 +83,7 @@ function Menu() {
     
   return (
 
-    <section className='Menu' id='Menu'>
+    <div className='Menu' id='menu'>
       <h2>Our Menu</h2>
       <div className="Menu_grid">
         {DISHES.map((project,index)=>(
@@ -91,7 +91,7 @@ function Menu() {
         ))}
       </div>
 
-    </section>
+    </div>
 
 
   )

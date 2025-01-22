@@ -5,6 +5,7 @@ import About from './components/About'
 import Menu from './components/Menu'
 
 import Results from './components/Results'
+import Footer from './components/Footer'
 
 
 
@@ -16,9 +17,8 @@ function App() {
       <Hero/>
       <About/>
       <Menu/>
-      
-      
      <Results/>
+     
       
       
       

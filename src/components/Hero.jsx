@@ -12,7 +12,7 @@ const Hero = () => {
             Indulge in a culinary journey where every dish tells a story. Our expert chefs craft exceptional meals using the finest ingredients.
           </p>
           <div>
-            <button className="hero-button">View Menu</button>
+            <button className="hero-button"><a href="#menu">View Menu</a></button>
           </div>
         </div>
       </div>

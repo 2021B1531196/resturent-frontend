@@ -5,7 +5,8 @@ import About from './components/About'
 import Menu from './components/Menu'
 
 import Results from './components/Results'
-import Footer from './components/Footer'
+import Contac from './components/Contac'
+
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Menu/>
      <Results/>
+     <Contac/>
      
       
       

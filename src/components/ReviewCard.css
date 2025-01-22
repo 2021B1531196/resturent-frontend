@@ -1,0 +1,47 @@
+
+.Review_card {
+    background-color: #2b2b2c81; 
+     
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 15px;
+    
+    color: #aa8282; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Review_card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .Review_description {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Review_name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: bisque; 
+  }
+  
+  .card_Review {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ebebebe3; 
+  }
+  
+  .review_footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .card_time {
+    font-size: 0.9em;
+    color: #9a9ab0; 
+    font-style: italic;
+  }
+  

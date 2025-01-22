@@ -4,15 +4,23 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Menu from './components/Menu'
 
+import Results from './components/Results'
+
+
+
 
 function App() {
   return (
     <div>
-      
       <Navbar/>
       <Hero/>
       <About/>
       <Menu/>
+      
+      
+     <Results/>
+      
+      
       
     
     </div>

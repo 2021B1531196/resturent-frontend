@@ -10,9 +10,6 @@ const Contac = () => {
           <h2>Any question or remarks? Just write us a message</h2>
           <div className="divider"></div>
         </div>
-
-        <div className="gap"></div>
-
         <div className="content-grid">
         
           <div className="contact-info">

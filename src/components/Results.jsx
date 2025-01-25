@@ -39,7 +39,7 @@ function Results() {
       <div className="stats-wrapper">
         <div className="stats-grid">
           <div className="stats-card">
-            <h3 className="stats-number">4.9</h3>
+            <h3 className="stats-number">4.9/5</h3>
         
             <p className="stats-text">Average Rating</p>
           </div>

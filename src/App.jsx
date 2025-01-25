@@ -6,8 +6,6 @@ import Menu from './components/Menu'
 
 import Results from './components/Results'
 import Contac from './components/Contac'
-import Login from './components/Login'
-import Singup from './components/singup'
 
 
 
@@ -16,8 +14,12 @@ import Singup from './components/singup'
 function App() {
   return (
     <div>
-      <Singup/>
-    
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Menu/>
+     <Results/>
+     <Contac/>
      
       
       

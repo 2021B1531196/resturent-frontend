@@ -71,7 +71,7 @@
   }
   
   
-  button {
+  .login_content button {
     width: 100%;
     padding: 10px;
     background-color: #2575fc;

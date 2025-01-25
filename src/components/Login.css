@@ -1,0 +1,105 @@
+
+.login_container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    background: url('../assets/hero-bg1.jpg') no-repeat center center/cover;
+  }
+  
+  
+  .login_form {
+    background-color: #ffffffc5;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .login_form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  .login_content p {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  .login_content input {
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login_content input:focus {
+    border-color: #2575fc;
+    outline: none;
+  }
+  
+  
+  .login_content h4 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  .login_content a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .login_content a:hover {
+    color: #6a11cb;
+  }
+  
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6a11cb;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .login_form {
+      padding: 20px;
+    }
+  
+    .login_form h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

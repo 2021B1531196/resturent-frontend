@@ -6,6 +6,11 @@ import Menu from './components/Menu'
 
 import Results from './components/Results'
 import Contac from './components/Contac'
+import { Route, Routes } from 'react-router-dom'
+import Login from './components/Login'
+import Singup from './components/singup'
+import BookTable from './components/BookTable'
+import LandingPage from './screens/LandingPage'
 
 
 
@@ -14,12 +19,15 @@ import Contac from './components/Contac'
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Menu/>
-     <Results/>
-     <Contac/>
+     <Navbar/>
+   
+      
+     <Routes>
+      <Route path='/'  element={<LandingPage/>}/>  
+      <Route path='signup' element={<Singup/>}/>
+      <Route path='login' element={<Login/>}/>
+      <Route path='booktable' element={<BookTable/>}/>
+     </Routes>
      
       
       

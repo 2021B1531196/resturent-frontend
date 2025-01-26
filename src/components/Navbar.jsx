@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineRestaurantMenu } from 'react-icons/md'
 import gericht from '../assets/gericht.png';
+import { Link } from 'react-router-dom';
 
 
 export const Navbar = () => {
@@ -22,9 +23,9 @@ export const Navbar = () => {
             <li className='p__opensans'><a href='#contact'>Contact</a></li>
         </ul>
         <div className='app__navbar_login'>
-          <a href='#login' className='p_opensans'>Log In / Register</a>
+          <a href='#login' className='p_opensans'> <Link to="/login"> Log In / Register</Link> </a>
           <div/>
-          <a  href='/' className='p__opensans'>Book Table</a>
+          <a  href='/' className='p__opensans'><Link to="/booktable">Book Table</Link></a>
         </div>
 
 

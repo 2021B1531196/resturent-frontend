@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Login.css"
+import { Link } from 'react-router-dom'
 
 function Singup() {
   return (
@@ -18,7 +19,7 @@ function Singup() {
                 <p>Re-type Password</p>
                 <input type='password' placeholder='Password'/>
                 
-                <h4>Already have an account? <a href='login'>Login</a></h4>
+                <h4>Already have an account? <a><Link to="/login">Login</Link></a></h4>
                 
                 <button>Signup</button>
 
